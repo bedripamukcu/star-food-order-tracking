@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: 'SF Pro Display', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 64px;
+  margin-top: 10px;
+}
+
+.flex-container {
+  display: flex;
+
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+.ly-1 {
+
+  width: 730px;
+  height: 84px;
+  top: 103px;
+  left: 432px;
+}
+
+.bg-body-tertiary {
+  width: 167px;
+  height: 36px;
+  top: 35px;
+  left: 478px;
+
+}
+
+.custom-svg {
+  width: 16px;
+  height: 15px;
+
+  left: 437px;
+}
+
+.custom-style {
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-align: left;
+
+}
+
+.custom-s1 {
+
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-align: left;
+
+}
+
+.custom-header {
+
+  font-family: "SF Pro Display";
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.custom-header-1 {
+
+  font-family: "SF Pro Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 16px;
+}
+
+
+
+#create-right {
+  display: flex;
+}
+
+.delivery {
+  background: #f7f7f7;
+  margin-right: 40px;
+  border: 1px solid #ebe7e7;
+  padding: 20px;
+  border-radius: 5px;
+
+  margin-top: 80px;
+  width: 651px;
+  min-height: 139px;
+  top: 88px;
+  left: 1241px;
+
+}
+
+.totalamount1 {
+  background: #f7f7f7;
+  margin-right: 40px;
+  border: 1px solid #ebe7e7;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 651px;
+  height: 73px;
+  top: 319px;
+  left: 1241px;
+
+}
+
+.custom-s2 {
+  font-family: SF Pro Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+
+.d-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+
+}
+.svg-a {
+
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  padding: 0px;
+  border-radius: 10px;
+  margin: 50px 40px;
+  font-size: 10px;
+  font-family: "SF Pro Display", "sans-serif";
+}
+
+
+
+@media (max-width: 1050px) {
+
+  .delivery,
+  .totalamount1 {
+    width: 100%;
+  }
+}

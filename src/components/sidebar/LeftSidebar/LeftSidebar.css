@@ -1,0 +1,20 @@
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #cacaca;
+  width: 85px;
+  height: 100vh;
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .left-sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .left-sidebar {
+    display: none;
+  }
+}

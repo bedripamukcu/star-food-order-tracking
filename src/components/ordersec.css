@@ -1,0 +1,55 @@
+.move-button {
+    width: 100%;
+    max-width: 200px;
+    height: 42px;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center; 
+ 
+  }
+
+.svg-a {
+
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 30px 50px ;
+    font-size: 10px;
+    font-family: "SF Pro Display", "sans-serif";
+    margin-left:30px
+  }
+  .order-info {
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: -50px;
+    font-size: 17px;
+    color: gray;
+  }
+  .order-value {
+    font-size: 15px;
+    color: black;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .move-button {
+      margin-right: 0; 
+      margin-top: 10px; 
+    }
+    .svg-a {
+        font-size: 14px; 
+        padding: 15px; 
+        margin: 20px auto; 
+      }
+      h6 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+      }
+      
+  }
+  

@@ -1,0 +1,21 @@
+.sidebar-header1 {
+    color: inherit;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'SF Pro Display', sans-serif;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 0;
+      overflow: hidden;
+    }
+  }
+  
