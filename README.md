@@ -2,6 +2,9 @@
 
 This project is an enhanced Star Food application built using React, incorporating additional features. It also integrates server-side data management through Firebase. With this project, you can conveniently monitor your orders and easily generate order receipts for printing purposes.
 
+![Screenshot from 2023-08-18 11-27-21](https://github.com/bedripamukcu/star-food-order-tracking/assets/78436362/adc084d3-6a62-493c-9960-32ea6c8e3091)
+
+
 ## Prerequisites
 
 - Node.js must be installed on your system.
